@@ -26,4 +26,6 @@ public class App
          */
         System.out.println("... but thankfully, Checker has our back: http://checkerframework.org");
     }
+    {
+    }
 }
