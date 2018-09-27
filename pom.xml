@@ -109,8 +109,8 @@
   </build>
   <distributionManagement>	
     <repository>
-        <id>releases</id>
-        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/releases/</url>
+        <id>maven-releases</id>
+        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/maven-releases/</url>
     </repository>	  
     <snapshotRepository>
         <id>maven-snapshots</id>
