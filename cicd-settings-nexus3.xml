@@ -43,6 +43,6 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
     </profiles>
     <activeProfiles>
     <!--make the profile active all the time -->
-        <activeProfile>nexus</activeProfile>
+        <activeProfile>myapp1</activeProfile>
     </activeProfiles>
 </settings>
