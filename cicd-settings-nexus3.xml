@@ -3,7 +3,7 @@
 <settings>
     <servers>
         <server>
-            <id>myapp1</id>
+            <id>myapp</id>
             <username>admin</username>
             <password>admin123</password>
         </server>
@@ -11,14 +11,14 @@
     <mirrors>
         <mirror>
       <!--This sends everything else to /public -->
-            <id>myapp1</id>
+            <id>myapp</id>
             <mirrorOf>*</mirrorOf>
-            <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp1/</url>
+            <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp/</url>
         </mirror>
     </mirrors>
     <profiles>
         <profile>
-            <id>myapp1</id>
+            <id>myapp</id>
       <!--Enable snapshots for the built in central repo to direct -->
       <!--all requests to nexus via the mirror -->
             <repositories>
@@ -41,7 +41,7 @@
     </profiles>
     <activeProfiles>
     <!--make the profile active all the time -->
-        <activeProfile>myapp1</activeProfile>
+        <activeProfile>myapp</activeProfile>
     </activeProfiles>
 </settings>
   </project>
