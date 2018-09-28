@@ -15,7 +15,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
       <!--This sends everything else to /public -->
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>http://nexus3-cicd.apps006.amosdemo.io/repository/maven-all-public/</url>
+            <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp1/</url>
         </mirror>
     </mirrors>
     <profiles>
