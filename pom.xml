@@ -110,11 +110,11 @@
   <distributionManagement>	
     <repository>
         <id>myapp</id>
-        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp/</url>
+        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp1/</url>
     </repository>	  
     <snapshotRepository>
         <id>myapp</id>
-        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp/</url>
+        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp1/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
