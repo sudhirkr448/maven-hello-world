@@ -11,7 +11,7 @@
     <mirrors>
         <mirror>
       <!--This sends everything else to /public -->
-            <id>nexus</id>
+            <id>myapp1</id>
             <mirrorOf>*</mirrorOf>
             <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp1/</url>
         </mirror>
