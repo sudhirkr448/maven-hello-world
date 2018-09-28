@@ -109,12 +109,12 @@
   </build>
   <distributionManagement>	
     <repository>
-        <id>maven-releases</id>
-        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/maven-releases/</url>
+        <id>myapp</id>
+        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp/</url>
     </repository>	  
     <snapshotRepository>
-        <id>maven-snapshots</id>
-        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/maven-snapshots/</url>
+        <id>myapp</id>
+        <url>http://nexus3-cicd.apps006.amosdemo.io/repository/myapp/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
