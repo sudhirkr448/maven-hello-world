@@ -20,7 +20,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
     </mirrors>
     <profiles>
         <profile>
-            <id>nexus</id>
+            <id>myapp1</id>
       <!--Enable snapshots for the built in central repo to direct -->
       <!--all requests to nexus via the mirror -->
             <repositories>
